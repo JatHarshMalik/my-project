@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.outer-container {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:solid black;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 90px;
+  max-width: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Balance {
+  color: #388e3c;
+}
+
+.Button {
+  display: flex;
+  flex-direction: column;
+}
+
+.Deposit,
+.Withdraw {
+  
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+}
+
+.Deposit {
+  background-color: #4caf50;
+}
+
+.Withdraw {
+  background-color: #e53935;
+}
