@@ -1,0 +1,10 @@
+This code makes a basic character counter for a webpage using HTML, CSS, and JavaScript.
+
+It has a textarea where you can type text, and below it a counter shows how many characters you have typed. The counter updates right away whenever you type, delete, or paste something, because it uses the oninput event.
+
+The main work is done by the showcount() JavaScript function. It reads the text inside the textarea, counts the characters, and then updates the  with id=“charcount” to show the number. This gives live results without refreshing the page or clicking any button.
+
+The CSS makes the page look better and easier to use. The textarea is set to take the full width, stay at a fixed height, and have some space around it. The character count is bold so it is easy to see.
+
+This kind of tool is helpful for text boxes, forms, or websites that have a limit on characters.
+
