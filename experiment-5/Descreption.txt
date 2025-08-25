@@ -1,0 +1,15 @@
+HTML (Structure):
+
+HTML builds the basic structure of the webpage. In this project, HTML creates a heading for the product list, a dropdown menu where the user can choose a category (All, Clothing, Electronics, Books), and a list of products with each product linked to a category. HTML’s role is only to show the content on the page.
+
+⸻
+
+CSS (Styling):
+
+CSS makes the webpage look nice. In this project, CSS sets the background color and font style, adds borders, padding, and spacing to the product box, and styles the dropdown menu and labels. Each product is placed inside a neat box with a border, padding, margin, and rounded corners. CSS only decides the design and appearance of the page.
+
+⸻
+
+JavaScript (Functionality):
+
+JavaScript makes the page interactive. In this project, JavaScript reads what the user selects in the dropdown menu, checks each product’s category, and shows the products that match while hiding the others. If “All” is selected, then all products are shown. JavaScript is responsible for the behavior and makes the filter work.
