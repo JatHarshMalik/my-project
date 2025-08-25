@@ -1,0 +1,15 @@
+HTML (Structure):
+
+The HTML makes the basic layout of the drawing tool. It has a container that holds everything, a heading that says “SVG Drawing Tool,” and an <svg> area where the user can draw with the mouse. HTML’s job is only to show the structure of the page, like the title, heading, and drawing area.
+
+⸻
+
+CSS (Styling):
+
+The CSS makes the page look nice and clean. The body uses a simple font. The container has a border, fixed width, and padding to keep the tool neat. The SVG drawing area has its own border, light background color, fixed size (560×400 pixels), and shows a crosshair cursor so users know they can draw there. CSS only takes care of the look and layout of the tool.
+
+⸻
+
+JavaScript (Functionality):
+
+The JavaScript makes the tool work. It watches the mouse actions: when the mouse is pressed (mousedown), a new line starts; when the mouse moves (mousemove), the line keeps growing like freehand drawing; and when the mouse is released (mouseup), the drawing stops. JavaScript is responsible for making the drawing area interactive.
